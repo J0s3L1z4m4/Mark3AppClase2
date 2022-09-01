@@ -1,3 +1,4 @@
+import ContadorTrusho from "../ContadorTrusho/ContadorTrusho";
 
 const ItemListContainer = ({greeting}) => {
   return (
@@ -5,7 +6,9 @@ const ItemListContainer = ({greeting}) => {
         <h3>
             {greeting}
         </h3>
-        
+        <ContadorTrusho>
+          
+        </ContadorTrusho>
     </div>
   )
 }

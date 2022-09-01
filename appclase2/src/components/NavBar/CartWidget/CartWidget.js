@@ -1,3 +1,4 @@
+import ContadorTrusho from '../../ContadorTrusho/ContadorTrusho';
 import carro from './carro_gif.gif';
 
 const CardWidget = () =>{
@@ -11,5 +12,5 @@ const CardWidget = () =>{
 }
 
 
-export default CardWidget;
+export default ContadorTrusho;
 
